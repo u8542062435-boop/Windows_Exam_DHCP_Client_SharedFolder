@@ -16,15 +16,16 @@ We add a new scope <br>
 <br>
 We configure the scope options: set the **Default Gateway (Router)** that the clients will receive <br>
 <br>
-[screenshot — Scope Options > 003 Router, entering the gateway IP] <br>
+<img width="371" height="395" alt="imatge" src="https://github.com/user-attachments/assets/c2798d07-09bf-4736-91c6-9afb43681c13" />
 <br>
 We also set the **DNS Server** so clients can resolve domain names <br>
 <br>
-[screenshot — Scope Options > 006 DNS Servers, entering the DNS IP] <br>
+<img width="388" height="400" alt="imatge" src="https://github.com/user-attachments/assets/1aec2cff-b3cc-4808-a971-42d73ebfa5d1" />
 <br>
 Finally, we **activate the scope** and **authorize the DHCP server** in Active Directory <br>
 <br>
-[screenshot — Right-click on server > Authorize / Activate Scope]
+<img width="443" height="249" alt="imatge" src="https://github.com/user-attachments/assets/7662dcbe-80e6-4ff8-9f95-c028b10d4bac" />
+
 
 ---
 
@@ -32,7 +33,8 @@ Finally, we **activate the scope** and **authorize the DHCP server** in Active D
 <br>
 Now we configure the **client machine**. We open Network Adapter settings and set it to obtain an IP address automatically (DHCP) <br>
 <br>
-[screenshot — Network Adapter Properties > IPv4 > Obtain an IP address automatically] <br>
+<img width="402" height="445" alt="imatge" src="https://github.com/user-attachments/assets/a273d80c-b7de-4d1b-bb00-fe46e278f06e" />
+
 <br>
 We run `ipconfig /release` and `ipconfig /renew` to force the client to request an IP from our DHCP server <br>
 <br>
