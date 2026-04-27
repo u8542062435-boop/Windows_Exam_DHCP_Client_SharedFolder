@@ -38,11 +38,13 @@ Now we configure the **client machine**. We open Network Adapter settings and se
 <br>
 We run `ipconfig /release` and `ipconfig /renew` to force the client to request an IP from our DHCP server <br>
 <br>
-[screenshot — CMD showing ipconfig with the leased IP from our scope] <br>
+<img width="527" height="318" alt="imatge" src="https://github.com/user-attachments/assets/298cbbbf-3888-4c3c-b4d3-cc910e2166b6" />
+
 <br>
 We can verify the lease on the server side in the DHCP Manager under **Address Leases** <br>
 <br>
-[screenshot — DHCP Manager > Scope > Address Leases showing the client]
+<img width="667" height="132" alt="imatge" src="https://github.com/user-attachments/assets/6b39c363-8a54-4084-96a5-bb23d91b7bdc" />
+
 
 ---
 
@@ -50,11 +52,13 @@ We can verify the lease on the server side in the DHCP Manager under **Address L
 <br>
 Now we join the **client to the domain**. We go to System Properties > Computer Name > Change and enter the domain name <br>
 <br>
-[screenshot — System Properties > Domain join dialog] <br>
+<img width="317" height="287" alt="imatge" src="https://github.com/user-attachments/assets/d1aac060-0ad0-426c-aae2-e8734997b79f" />
+
 <br>
 We authenticate with a domain admin account and restart the client <br>
 <br>
-[screenshot — Credentials prompt / restart confirmation]
+<img width="569" height="527" alt="imatge" src="https://github.com/user-attachments/assets/3c770a53-aa03-4362-958c-75dd5108e4fc" />
+
 
 ---
 
