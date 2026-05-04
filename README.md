@@ -66,11 +66,13 @@ We authenticate with a domain admin account and restart the client <br>
 <br>
 On the **server**, we create the folder that will be shared. We set the sharing permissions and define who can access it <br>
 <br>
-[screenshot — Folder Properties > Sharing tab > Advanced Sharing] <br>
+<img width="366" height="395" alt="imatge" src="https://github.com/user-attachments/assets/172ab3bc-beea-4f21-aa55-af6bac948e7f" />
+ <br>
 <br>
 We also configure the **NTFS permissions** to control access at the file system level <br>
 <br>
-[screenshot — Security tab > Edit permissions, adding users/groups]
+<img width="390" height="496" alt="imatge" src="https://github.com/user-attachments/assets/93c8db33-fba0-416b-91dc-5d1be5be88fc" />
+<br>
 
 ---
 
@@ -78,8 +80,12 @@ We also configure the **NTFS permissions** to control access at the file system 
 <br>
 From the **client**, we access the shared folder using its UNC path: `\\ServerName\ShareName` <br>
 <br>
-[screenshot — File Explorer with the UNC path in the address bar] <br>
+<img width="566" height="280" alt="imatge" src="https://github.com/user-attachments/assets/291757bd-353a-4904-a891-f10b78508930" />
+ <br>
 <br>
 We verify that the client can read/write depending on the permissions set <br>
 <br>
-[screenshot — Shared folder contents visible from the client]
+<img width="598" height="380" alt="imatge" src="https://github.com/user-attachments/assets/52d431e2-2ffc-43e7-8e53-d20d8b2a924a" />
+<br>
+The client can't create a folder because the permission settings are fixed to this.
+
