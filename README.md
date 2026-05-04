@@ -1,10 +1,10 @@
-# 🌐 Windows Server — DHCP, Client & Shared Folder
+# Windows Server — DHCP, Client & Shared Folder
 
 > Configuring the DHCP role, connecting a client to the domain, and setting up a shared folder with permissions.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [DHCP Role Installation](#1-dhcp-role-installation)
 2. [Scope Options](#2-scope-options)
@@ -93,7 +93,7 @@ Verify that the client can read and write according to the permissions configure
 
 ![Permission Verification](https://github.com/user-attachments/assets/52d431e2-2ffc-43e7-8e53-d20d8b2a924a)
 
-> ⚠️ The client cannot create folders — this is expected behavior based on the permission settings defined in Step 5.
+> The client cannot create folders — this is expected behavior based on the permission settings defined in Step 5.
 
 ---
 
